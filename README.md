@@ -2,8 +2,8 @@
 <b>Ewha Womans University 2022-1 Virtual Reality</b>
 
 <b>Team 1971
-
-이희원</n>
-오지현</n>
-이로운<\n>
-지현숙</n>
+  
+이희원
+오지현
+이로운
+지현숙
