@@ -1,7 +1,7 @@
 # 1971Meow
 <b>Ewha Womans University 2022-1 Virtual Reality</b>
 
-<b>Team 1971
+<b>Team 1971</b>
   
 이희원
 오지현
