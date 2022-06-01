@@ -15,7 +15,7 @@ C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59350
+49204
 Successfully changed project path to: C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 89.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013332 seconds.
+Registered in 0.012001 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 134.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 115.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.788 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (379ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (336ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (63ms)
+				InitializePlatformSupportModulesInManaged (67ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
+				RefreshPlugins (115ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010805 seconds.
+Registered in 0.008763 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\EWHA\2022-1\VirtualReality\1971Meow\1971Meow\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\EWHA\2022-1\VirtualReality\1971Meow\1971Meow\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.097 seconds
+- Completed reload, in  2.267 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4098ms)
-		BeginReloadAssembly (3062ms)
+	ReloadAssembly (2268ms)
+		BeginReloadAssembly (1235ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2951ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (1119ms)
+		EndReloadAssembly (904ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (299ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (425ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (86.8 KB). Loaded Objects now: 3855.
-Memory consumption went from 230.4 MB to 230.3 MB.
-Total: 3.715600 ms (FindLiveObjects: 0.328300 ms CreateObjectMapping: 0.201900 ms MarkObjects: 3.092400 ms  DeleteObjects: 0.091700 ms)
+Unloading 24 unused Assets / (61.5 KB). Loaded Objects now: 3859.
+Memory consumption went from 230.5 MB to 230.5 MB.
+Total: 5.224300 ms (FindLiveObjects: 0.296300 ms CreateObjectMapping: 0.206400 ms MarkObjects: 4.493600 ms  DeleteObjects: 0.226900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,157 +163,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1461453.814244 seconds.
-  path: Assets/Resources/Materials/water.png
-  artifactKey: Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water.png using Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e17c1ca9c0f63562bedaca4336a5fc5') in 0.099819 seconds 
+  Time since last request: 1626424.189535 seconds.
+  path: Assets/Resources/Image/Materials
+  artifactKey: Guid(371069c26ff78a443b7e1f49bcb86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials using Guid(371069c26ff78a443b7e1f49bcb86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2df5525b75521483ecf3331d76f93e') in 0.006842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.084240 seconds.
-  path: Assets/Resources/Materials/water.png
-  artifactKey: Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water.png using Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de90d8263ffaeb7e30ecf76789ab0d5b') in 0.104553 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Image/Materials/bowl.mat
+  artifactKey: Guid(83bfeee993af3ba42845f3f594815b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/bowl.mat using Guid(83bfeee993af3ba42845f3f594815b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2da91c9c5dfd4eca11bcc2f4381c83') in 0.142975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.556981 seconds.
-  path: Assets/Resources/asset_free_Ukraine_cars/materials/all colors.mat
-  artifactKey: Guid(91fc33068a263294782038180ce2b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/asset_free_Ukraine_cars/materials/all colors.mat using Guid(91fc33068a263294782038180ce2b84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2da9642e522408b495022f7c878b8f3') in 0.096284 seconds 
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/Image/Materials/water3.mat
+  artifactKey: Guid(c5aaac0dac919474aae5363e280754d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/water3.mat using Guid(c5aaac0dac919474aae5363e280754d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea171fe627effae5b785d2cb57a7046') in 0.028404 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/Materials/Materials/chocolate 2.mat
-  artifactKey: Guid(3b39e2240b7b62744a7cce1f3c9d03ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/chocolate 2.mat using Guid(3b39e2240b7b62744a7cce1f3c9d03ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efcc33011fd0ddf934ab6c0352cd224') in 0.025733 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Image/Materials/ghost.mat
+  artifactKey: Guid(a614a011d50dc744a9ac216baf557ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/ghost.mat using Guid(a614a011d50dc744a9ac216baf557ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb7e4cfefec48c0ebf619daf59c7bc7') in 0.023884 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Resources/Materials/Materials/chocolate 5.mat
-  artifactKey: Guid(0ef6d2b81e0c673449b1df733cb589ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/chocolate 5.mat using Guid(0ef6d2b81e0c673449b1df733cb589ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0089c2989fd61fb884fdf7402ff8c16') in 0.046740 seconds 
+  Time since last request: 0.000113 seconds.
+  path: Assets/Resources/Image/Materials/food4.mat
+  artifactKey: Guid(8982fded63bf8b042a2f5f50279e4081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/food4.mat using Guid(8982fded63bf8b042a2f5f50279e4081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcdb3c9942a7b55cff61a1a8de547f1') in 0.026425 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.272460 seconds.
-  path: Assets/Resources/asset_free_Ukraine_cars/mesh/cars/bus/bus_1/bus_1_yellow.fbx
-  artifactKey: Guid(80ec9d4b1fe521f4d92830bd743a27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/asset_free_Ukraine_cars/mesh/cars/bus/bus_1/bus_1_yellow.fbx using Guid(80ec9d4b1fe521f4d92830bd743a27d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382c246e4a6e74f8c5defccb85556907') in 0.162514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.344235 seconds.
-  path: Assets/Resources/asset_free_Ukraine_cars/mesh/cars/car/car_6/car_6_black.fbx
-  artifactKey: Guid(50f53926913170b4daab14ab08678678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/asset_free_Ukraine_cars/mesh/cars/car/car_6/car_6_black.fbx using Guid(50f53926913170b4daab14ab08678678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b042938fbb638ebb82b17b730523fe') in 0.113050 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Image/Materials/ciao 1.mat
+  artifactKey: Guid(3b8fc00436b0a334e8bf0cd6bc50c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/ciao 1.mat using Guid(3b8fc00436b0a334e8bf0cd6bc50c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e5273708c37c5b6cd3d6dda2979319') in 0.022359 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Resources/asset_free_Ukraine_cars/mesh/cars/van/van_1/van_1_black.fbx
-  artifactKey: Guid(b9c2258c2de39964da426e9c567b9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/asset_free_Ukraine_cars/mesh/cars/van/van_1/van_1_black.fbx using Guid(b9c2258c2de39964da426e9c567b9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05490e024283d2b3a147a661c59dd0ac') in 0.164093 seconds 
+  path: Assets/Resources/Image/Materials/water 1.mat
+  artifactKey: Guid(a633aa8452efb65499c9e7c0b136170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/water 1.mat using Guid(a633aa8452efb65499c9e7c0b136170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613f6ae4440a8cbc5950d15f50c8d757') in 0.027130 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.262477 seconds.
-  path: Assets/Resources/asset_free_Ukraine_cars/mesh/road/long_road_two_pavement.fbx
-  artifactKey: Guid(b0a865d047afcc3408f9c3695b00dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/asset_free_Ukraine_cars/mesh/road/long_road_two_pavement.fbx using Guid(b0a865d047afcc3408f9c3695b00dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c77a73b37678bcee99f2351aa165a86') in 0.038567 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Image/Materials/ciao 2.mat
+  artifactKey: Guid(d92082d6c3e5e4f4da90de7a68a8c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/ciao 2.mat using Guid(d92082d6c3e5e4f4da90de7a68a8c760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be62ed91bded9c0e00a6f448796b301f') in 0.023102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 268.985699 seconds.
-  path: Assets/Resources/Materials/water.png
-  artifactKey: Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water.png using Guid(6e690f59e3874e94599998e7aa178b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21fdbeeff9512e8fe897d47d8596995') in 0.067172 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Image/Materials/water.mat
+  artifactKey: Guid(66ed290d650c7134486ecdacd02eae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/water.mat using Guid(66ed290d650c7134486ecdacd02eae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d5ad8cbf08e327d9c127ad1fcc2247') in 0.021223 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 115.342322 seconds.
-  path: Assets/Resources/Prefabs/water.prefab
-  artifactKey: Guid(67992b9e44f7c8c4f9790852d7e46c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/water.prefab using Guid(67992b9e44f7c8c4f9790852d7e46c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c71054ade927232435b3f9805a3370c') in 0.067775 seconds 
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Image/Materials/ciao.mat
+  artifactKey: Guid(2ce9877540a0f374aad455b98f6617c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/ciao.mat using Guid(2ce9877540a0f374aad455b98f6617c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c0726242882b641701ed381235c6f3') in 0.028232 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.312342 seconds.
-  path: Assets/Resources/Prefabs/water.prefab
-  artifactKey: Guid(67992b9e44f7c8c4f9790852d7e46c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/water.prefab using Guid(67992b9e44f7c8c4f9790852d7e46c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ce75c934d387a3833517fe3d17e116') in 0.039970 seconds 
+  Time since last request: 0.000084 seconds.
+  path: Assets/Resources/Image/Materials/food3.mat
+  artifactKey: Guid(d562f6f4b9d246f4f97b969e761b10c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/food3.mat using Guid(d562f6f4b9d246f4f97b969e761b10c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f922f19b2da826d2c27ffc40268e99') in 0.018495 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1525.364680 seconds.
-  path: Assets/Resources/Materials/Materials/water 1.mat
-  artifactKey: Guid(60d138eed52968540b11512bc4aaad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/water 1.mat using Guid(60d138eed52968540b11512bc4aaad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad2f4aa524e09a74743391553aa314c') in 0.018954 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Image/Materials/food2.mat
+  artifactKey: Guid(adc8604723114b94c981a07905945945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/food2.mat using Guid(adc8604723114b94c981a07905945945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0beb3f255a603e0fa24220246ac41d1') in 0.016827 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.649910 seconds.
-  path: Assets/Resources/Materials/water2.png
-  artifactKey: Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water2.png using Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c400413a11ef19d100f3e6e52335c7') in 0.016126 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Image/Materials/gray.mat
+  artifactKey: Guid(c6f990a022d51a948a5da7ea14a7c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/gray.mat using Guid(c6f990a022d51a948a5da7ea14a7c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b8b821fdec64fa26debdeda00976b2') in 0.019854 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.484673 seconds.
-  path: Assets/Resources/Materials/water2.png
-  artifactKey: Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water2.png using Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d8422bfa63adfb524b4ca9bd09a4ce') in 0.078513 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Image/Materials/food.mat
+  artifactKey: Guid(3c95f2a697eaa4f4f9293a018658939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/food.mat using Guid(3c95f2a697eaa4f4f9293a018658939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afcc28c798e058a7bebb4f15f817d7c') in 0.022493 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.239348 seconds.
-  path: Assets/Resources/Materials/water2.png
-  artifactKey: Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water2.png using Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52336331efb620eb04bf6b147ddfe67f') in 0.031216 seconds 
+  Time since last request: 18.441208 seconds.
+  path: Assets/Resources/Image/Materials/Materials
+  artifactKey: Guid(40d6792c73cf4494fa149b5c024f90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/Materials using Guid(40d6792c73cf4494fa149b5c024f90d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a3af6ed609d251ae1dad753986a21') in 0.004129 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.516218 seconds.
-  path: Assets/Resources/Materials/water2.png
-  artifactKey: Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water2.png using Guid(8e549ed38f3b359488677b44f97f2df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2e183067909e1c6c69d7213ad8742d') in 0.079438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 135.438952 seconds.
-  path: Assets/Resources/Materials/water cap.png
-  artifactKey: Guid(1294f8b971d724a469fbcd55886c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water cap.png using Guid(1294f8b971d724a469fbcd55886c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae05096fa4370dc39e735bf82080097a') in 0.013280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.076740 seconds.
-  path: Assets/Resources/Materials/water cap.png
-  artifactKey: Guid(1294f8b971d724a469fbcd55886c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water cap.png using Guid(1294f8b971d724a469fbcd55886c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15144b5aa4e294613887c1f66a3f6aaf') in 0.085843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.471884 seconds.
-  path: Assets/Resources/Materials/water.prefab
-  artifactKey: Guid(166690d33408f484ebaf69b34398c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/water.prefab using Guid(166690d33408f484ebaf69b34398c6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec7aedf3031e5dd4104a60f46e0f8b1') in 0.033219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.111415 seconds.
-  path: Assets/Resources/Prefabs/water 1.prefab
-  artifactKey: Guid(3b7499843a141e041863a278a29a90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/water 1.prefab using Guid(3b7499843a141e041863a278a29a90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318141e2ca546aad11fa7df2869b627f') in 0.033686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.238187 seconds.
-  path: Assets/Resources/Prefabs/water.prefab
-  artifactKey: Guid(3b7499843a141e041863a278a29a90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/water.prefab using Guid(3b7499843a141e041863a278a29a90e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffec2beed932dbf089c7a9def5f9a6e1') in 0.039196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 333.813826 seconds.
-  path: Assets/Resources/Materials/Materials/water cap.mat
-  artifactKey: Guid(fd6e98de5046dc244a7c57d8745ecfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/water cap.mat using Guid(fd6e98de5046dc244a7c57d8745ecfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24874db20369874bdcd9e27be740a811') in 0.027919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.743127 seconds.
-  path: Assets/Resources/Materials/Materials/chocolate.mat
+  Time since last request: 0.025897 seconds.
+  path: Assets/Resources/Image/Materials/Materials/chocolate.mat
   artifactKey: Guid(0ef6d2b81e0c673449b1df733cb589ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/chocolate.mat using Guid(0ef6d2b81e0c673449b1df733cb589ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2c42487f3e3b3103c6b859a8f8aa9b') in 0.043896 seconds 
+Start importing Assets/Resources/Image/Materials/Materials/chocolate.mat using Guid(0ef6d2b81e0c673449b1df733cb589ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4051ddd0f2c6440c290b2d9cc5a4c3c4') in 0.017860 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.499788 seconds.
-  path: Assets/Resources/Materials/Materials/water.mat
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Image/Materials/Materials/ciao.mat
+  artifactKey: Guid(6211b72f31bbaa04a8a95ce0e2ef30a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/Materials/ciao.mat using Guid(6211b72f31bbaa04a8a95ce0e2ef30a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4a03a6057814065203e3ae3a15dfb3') in 0.026093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Image/Materials/Materials/paw.mat
+  artifactKey: Guid(3d75efac6ec46a04c9804ecb4e55c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/Materials/paw.mat using Guid(3d75efac6ec46a04c9804ecb4e55c29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb22a982430c76bff766c30e20dcd13c') in 0.025979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Image/Materials/Materials/water.mat
   artifactKey: Guid(f92c3e6e16cf5234892311e368bfdd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Materials/Materials/water.mat using Guid(f92c3e6e16cf5234892311e368bfdd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1721c7eda2b4d1533262a629d8db1b91') in 0.035751 seconds 
+Start importing Assets/Resources/Image/Materials/Materials/water.mat using Guid(f92c3e6e16cf5234892311e368bfdd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f01572c03a8b242204a61a35cf9b8e1') in 0.026565 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.159557 seconds.
-  path: Assets/Resources/Prefabs/chocolate.prefab
-  artifactKey: Guid(96d2a98a9dec63847ac19720d1942685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/chocolate.prefab using Guid(96d2a98a9dec63847ac19720d1942685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d025673275d7fa787d8a77482cef00') in 0.027863 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Image/Materials/Materials/water cap.mat
+  artifactKey: Guid(fd6e98de5046dc244a7c57d8745ecfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/Materials/water cap.mat using Guid(fd6e98de5046dc244a7c57d8745ecfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a7c89c4c830ada56501e2307434d77') in 0.030424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.383419 seconds.
+  path: Assets/Resources/Image/Materials/water.mat
+  artifactKey: Guid(a633aa8452efb65499c9e7c0b136170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/water.mat using Guid(a633aa8452efb65499c9e7c0b136170b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e263259835e40129e5a5d43d9f354021') in 0.020179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.096398 seconds.
+  path: Assets/Resources/Image/Materials/food.mat
+  artifactKey: Guid(8982fded63bf8b042a2f5f50279e4081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Materials/food.mat using Guid(8982fded63bf8b042a2f5f50279e4081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8beb7ff5deca6078d4e47926fdbf2a8') in 0.018732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.913597 seconds.
+  path: Assets/Resources/Prefabs/food.prefab
+  artifactKey: Guid(5123adcd14ba154499c873c1afa08f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/food.prefab using Guid(5123adcd14ba154499c873c1afa08f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e95496bd70e9dd902ba6304bbbf6c4') in 0.056530 seconds 
