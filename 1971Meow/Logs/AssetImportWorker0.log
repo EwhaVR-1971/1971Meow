@@ -15,7 +15,7 @@ C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63259
+49688
 Successfully changed project path to: C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/user/Documents/EWHA/2022-1/VirtualReality/1971Meow/1971Meow
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 122.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,92 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014497 seconds.
+Registered in 0.013339 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 90.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.866 seconds
+- Completed reload, in  0.862 seconds
 Domain Reload Profiling:
-	ReloadAssembly (867ms)
-		BeginReloadAssembly (154ms)
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (153ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (148ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (328ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (65ms)
+				InitializePlatformSupportModulesInManaged (63ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (105ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017136 seconds.
+Registered in 0.008423 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\EWHA\2022-1\VirtualReality\1971Meow\1971Meow\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\user\Documents\EWHA\2022-1\VirtualReality\1971Meow\1971Meow\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.846 seconds
+- Completed reload, in  2.149 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1847ms)
-		BeginReloadAssembly (591ms)
+	ReloadAssembly (2150ms)
+		BeginReloadAssembly (1003ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (466ms)
-		EndReloadAssembly (1100ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (874ms)
+		EndReloadAssembly (985ms)
+			LoadAssemblies (155ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (450ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (126ms)
+				BeforeProcessingInitializeOnLoad (112ms)
 				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (61.5 KB). Loaded Objects now: 3859.
-Memory consumption went from 230.5 MB to 230.4 MB.
-Total: 4.036300 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.237800 ms MarkObjects: 3.153600 ms  DeleteObjects: 0.220800 ms)
+Unloading 24 unused Assets / (62.1 KB). Loaded Objects now: 3863.
+Memory consumption went from 236.9 MB to 236.9 MB.
+Total: 3.787200 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.224800 ms MarkObjects: 3.086500 ms  DeleteObjects: 0.095600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,13 +163,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 147056.045818 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.009793 seconds 
+  Time since last request: 55849.026472 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b9f17442890784a48a1b4cf552d24be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b9f17442890784a48a1b4cf552d24be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726f480d0571eab0894630869d12fa33') in 0.035219 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.642859 seconds.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BackgroundCars/ParkingLot/RoadConcrete01_512.png
+  artifactKey: Guid(b23ba130c7e1f6e42beca4937a219b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/RoadConcrete01_512.png using Guid(b23ba130c7e1f6e42beca4937a219b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8d15d44122b46b8df26b818122a4e8') in 0.103312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/GrassMat.mat
+  artifactKey: Guid(0f0c124508ebd1e4aa1a00d7a2819112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/GrassMat.mat using Guid(0f0c124508ebd1e4aa1a00d7a2819112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522fc713997bef303b14b0f03bb97c9c') in 0.099357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BackgroundCars/ParkingLot
+  artifactKey: Guid(4bd1c265b6b6c304fbb2149418436871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot using Guid(4bd1c265b6b6c304fbb2149418436871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c54ec9a31a2c653f10d13b0270711c5') in 0.002496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Grass01.png
+  artifactKey: Guid(1ffa4d751e20f904686d8abe9a56ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Grass01.png using Guid(1ffa4d751e20f904686d8abe9a56ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a52f6dd7350c6606bc69c1603321f4f') in 0.020691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/ParkingMat.mat
+  artifactKey: Guid(00620c29a8f4b804f9c4260452764fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/ParkingMat.mat using Guid(00620c29a8f4b804f9c4260452764fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdec99c49f98fe10cd33594049aeba0b') in 0.021636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Parking01.png
+  artifactKey: Guid(08b6cd8d10ce6024ca6d22a40c7d98a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Parking01.png using Guid(08b6cd8d10ce6024ca6d22a40c7d98a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37644b8fc51b63e74447b53449c1b4') in 0.020436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/Parking01.mat
+  artifactKey: Guid(63b5ed1162701254897e9a537053e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/Parking01.mat using Guid(63b5ed1162701254897e9a537053e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3738a6c8e92834adbdebecab4d45d8d1') in 0.018345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/BackgroundCars/ParkingLot/ParkingLot.obj
+  artifactKey: Guid(73f06abc94a6d0248b1129a2e960cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/ParkingLot.obj using Guid(73f06abc94a6d0248b1129a2e960cb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18230f9f4a2a75d20846a879e08cd338') in 0.098872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials
+  artifactKey: Guid(76cd9ba9efad1a7428d57659440ca4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials using Guid(76cd9ba9efad1a7428d57659440ca4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d68179a5b1a83c53cdc85e4dcbe6a3') in 0.001969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/Grass01.mat
+  artifactKey: Guid(4a2c47b2443356841aa15ae554d70d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/Grass01.mat using Guid(4a2c47b2443356841aa15ae554d70d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aa9c3a075f2ba851280939abd3c57c') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/RoadConcrete01_512.mat
+  artifactKey: Guid(056c2a0af924c2a4ea0844b08df0d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/RoadConcrete01_512.mat using Guid(056c2a0af924c2a4ea0844b08df0d277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8f4b90396a29ef5687cd5f9c872a16') in 0.011314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BackgroundCars/ParkingLot/Materials/ConcreteMat.mat
+  artifactKey: Guid(9a8016e516f434e4eba2dd3bf8dd63ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/ParkingLot/Materials/ConcreteMat.mat using Guid(9a8016e516f434e4eba2dd3bf8dd63ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5199066ae5dfa7e7ac314f88a394155d') in 0.022032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.872847 seconds.
+  path: Assets/BackgroundCars/FreeCar
+  artifactKey: Guid(8c672fa071406c34d9d3a2ec8bfaba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/FreeCar using Guid(8c672fa071406c34d9d3a2ec8bfaba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1606b332e7a5bdc437dc4a541e35acc8') in 0.003841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.976784 seconds.
+  path: Assets/BackgroundCars/FreeCar/FreeDemoScene.unity
+  artifactKey: Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/FreeCar/FreeDemoScene.unity using Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e247ca3360d9402a68487265dbd76e7') in 0.002774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767114 seconds.
+  path: Assets/BackgroundCars/FreeCar/BackgroundCar-Free.txt
+  artifactKey: Guid(7b975f7010a3cf54aa3eb2e6d302b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/FreeCar/BackgroundCar-Free.txt using Guid(7b975f7010a3cf54aa3eb2e6d302b179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b099c56f1ab4a64650eac94e87880443') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.003932 seconds.
+  path: Assets/BackgroundCars/FreeCar/FreeDemoSceneSettings.lighting
+  artifactKey: Guid(6e56ae493de77a442bbb62a54f1b8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/FreeCar/FreeDemoSceneSettings.lighting using Guid(6e56ae493de77a442bbb62a54f1b8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c0148ea5110466c7946c3e2fc45aa001') in 0.006468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.497476 seconds.
+  path: Assets/BackgroundCars/FreeCar/FreeDemoScene 1.unity
+  artifactKey: Guid(83d711993d563b14c95f03a8c62565a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BackgroundCars/FreeCar/FreeDemoScene 1.unity using Guid(83d711993d563b14c95f03a8c62565a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3602bbdf90173340e4ddb1d869faa4ba') in 0.003654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.479833 seconds.
+  path: Assets/Scenes/FreeDemoScene.unity
+  artifactKey: Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FreeDemoScene.unity using Guid(00e520d07eb23a247b488d7570a6c36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d23bbd883e97e2530f489bc1286f14b') in 0.002704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.707787 seconds.
   path: Assets/Scenes/Intro.unity
   artifactKey: Guid(1004a0663c73c784fa0d950f26b0effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Intro.unity using Guid(1004a0663c73c784fa0d950f26b0effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314076762c5639a25cfb8b5011915272') in 0.002590 seconds 
+Start importing Assets/Scenes/Intro.unity using Guid(1004a0663c73c784fa0d950f26b0effe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7a000f1229be03e118017238e6ef08') in 0.012357 seconds 
